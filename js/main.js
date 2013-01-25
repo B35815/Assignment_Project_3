@@ -87,18 +87,16 @@ var monsterBattles = {
 	}
 
 }, // Function Method
-	battleDone: function () {
+	battleDone = function () {
 		var monster = monsterArmy.monsters
 		monster.amount = 0
 		console.log ("We have " + monster.amount + " monsters attacking us.");	
 		return monsterArmy.monster, monster.amount, monster;
-	}; // Mutator Method
-	warStatus: function () {
+	} // Mutator Method
+	warStatus = function () {
 		var monster = monsterArmy.monsters
 		console.log ("We have to check to see how many monsters are still around the area. As of right now we have " + monster.amount + " monsters close by.")
 	}; // Accessor Method
-
-};
 
 // Functions
 
@@ -185,8 +183,8 @@ console.log ("The warriors health and magic are stating to go low thanks to the 
 monsterBattles.battle1(); // Function Method
 monsterBattles.battle2(); // Function Method
 monsterBattles.battle3(); // Function Method
-monsterBattles.battleDone(); // Mutator Method
+monsterBattles.battleDone; // Mutator Method
 console.log ("The fighting is over for now but here is still much to be done. Be aware of your surroundings.");
 
-monsterBattles.warStatus(); // Accessor Method
+monsterBattles.warStatus; // Accessor Method
 console.log ("After all the great battles fought, our great warriors are getting ready to head out for another great adventure and continue fighting the monsters that threatened our Earth.");
