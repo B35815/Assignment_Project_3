@@ -129,7 +129,7 @@ var monsterInterference =  function (monsterNum) {
 }; // Number
 
 var otherSurvivors = function (survivor1, survivor2) {
-	console.log ("There are 2 warriors coming towards " + characterName + ". He doesn't know if they are here to help or to kill him. He is ready with his ready to fight.");
+	console.log ("There are 2 warriors coming towards " + characterName + ". He doesn't know if they are here to help or to kill him. He is ready with his " + weaponChoice[0] + " just in case things get rough.");
 	console.log (survivor1 + " and " + survivor2 + " reach " + characterName + ". They explained that monsters attacked their village and they were the only survivors.");
 	console.log (characterName + " asked them if they wanted to join his army and they did agree.");
 	return survivor1, survivor2;
